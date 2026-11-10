@@ -1,0 +1,129 @@
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+/* Header stuff */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+}
+header span {
+    color: #024873;
+    font-weight: 700;
+}
+
+/* Navigation stuff */
+nav {
+    background-color: #f2b705;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #024873;
+    font-weight: 700;
+    padding: .83rem 1rem;
+    display: block;
+}
+nav li.active a:hover {
+    color: white;
+}
+nav a:hover {
+    color: white;
+}
+nav li.active a {
+    background-color: #024873;
+    color: #f2b705;
+}
+/* main stuff */
+main {
+    padding: 1rem 10px;
+}
+main h1 {
+    color: #b40412;
+}
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #333;
+    margin: 0;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #fff;
+}
+main dl dt {
+    font-weight: 700;
+    color: #b40412;
+    margin-top: 1rem;}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: #000;
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    font-weight: 300;
+    background-color: #f2b705;
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+}
+main a.hover {
+    color: #b40412;
+}
+
+main a {
+    color: #024873;
+}
+/* footer stuff */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #333;
+    padding: 1rem 0px;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
