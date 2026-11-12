@@ -132,7 +132,7 @@ footer a {
 .forma :required {
     background-color: rgba(156, 51, 53, .1);
 }
-input [type=submit] {
+.submition {
     background-color: #43a0b6;
     border: none;
     padding: 1rem 2rem;
