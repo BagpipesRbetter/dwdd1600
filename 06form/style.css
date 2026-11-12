@@ -302,3 +302,12 @@ footer a:hover {
 .submition:hover {
     background-color: #685634;
 }
+.survey button {
+    background-color: #7b6b43;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
