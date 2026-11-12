@@ -63,6 +63,18 @@
                 <textarea name="interest" placeholder="I enjoy learning about the history and engineering of tanks." required></textarea>
             </fieldset>
             <fieldset>
+                <legend>Tank Interests</legend>
+                <label><input type="checkbox" name="tank" value="m4">Development</label>
+                <label><input type="checkbox" name="tank" value="t34">Use During The War</label>
+                <label><input type="checkbox" name="tank" value="tiger">Armament</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Comments</legend>
+                <label>Do you have any additional comments or feedback about this site?
+                    <textarea name="comments" placeholder="I really enjoy the content on this site."></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
                 <legend>Would you like to receive updates about this site via your provided email?</legend>
                 <label><input type="radio" name="updates" value="yes" required>Yes, please send me updates about this site.</label>
                 <label><input type="radio" name="updates" value="no" required>No, I do not want to receive updates about this site.</label>
@@ -78,17 +90,6 @@
                     </select>
                 </label>
             </fieldset>
-            <fieldset>
-                <legend>Tank Interests</legend>
-                <label><input type="checkbox" name="tank" value="m4">M4 Sherman</label>
-                <label><input type="checkbox" name="tank" value="t34">T-34</label>
-                <label><input type="checkbox" name="tank" value="tiger">Tiger I</label>
-            </fieldset>
-            <fieldset>
-                <legend>Additional Comments</legend>
-                <label>Do you have any additional comments or feedback about this site?
-                    <textarea name="comments" placeholder="I really enjoy the content on this site."></textarea>
-                </label>
                 <button type="submit">Submit Survey</button>
             </form>
     </main>
