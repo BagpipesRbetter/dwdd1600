@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Evan Barclay">
+    <meta name="description" content="Historical information, technical specifications, and combat history of World War II armored vehicles.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tanks: An Armored Vehicle Resource - History</title>
+</head>
+<body>
+    <header>
+        <span>Tanks: An Armored Vehicle Resource</span>
+        <p>Historical Information and Technical Specifications of World War II Armor</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" aria-current="page">History</a></li>
+            <li><a href="specs.html">Vehicle Specs</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Survey</h1>
+        <form class="survey" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name:<input type="text" name="fname" id="fname" placeholder="john" required></label>
+                <label>Last Name:<input type="text" name="lname" id="lname" placeholder="doe" required></label>
+                <label>Email Address:<input type="email" name="email" id="email" placeholder="john.doe@example.com" required></label>
+                <label>Phone:<input type="tel" name="phone" id="phone" placeholder="(555) 555-5555"></label>
+            </fieldset>
+            <h2>Survey Questions</h2>
+            <fieldset>
+                <legend>How did you hear about this site?</legend>
+                <label>
+                    <input type="radio" name="source" value="friend" required> Friend or Family
+                </label>
+                <label>
+                    <input type="radio" name="source" value="social" required> Social Media
+                </label>
+                <label>
+                    <input type="radio" name="source" value="search" required> Search Engine
+                </label>
+                <label>
+                    <input type="radio" name="source" value="forum" required> Forum Post
+                </label>
+                <label>
+                    <input type="radio" name="source" value="other" required> Other
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite Vehicle & Personal Interest</legend>
+                <label>What is your favorite armored vehicle from World War II and why?
+                    <textarea name="favorite" placeholder="Tiger I" required></textarea>
+                </label>
+                <label>Why do you enjoy WW2 tanks</label>
+                <textarea name="interest" placeholder="I enjoy learning about the history and engineering of tanks." required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Would you like to receive updates about this site via your provided email?</legend>
+                <label><input type="radio" name="updates" value="yes" required>Yes, please send me updates about this site.</label>
+                <label><input type="radio" name="updates" value="no" required>No, I do not want to receive updates about this site.</label>
+            </fieldset>
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <label>
+                    <select name="contact" required>
+                        <option value="" disabled selected>Select method</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="none">No contact</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Tank Interests</legend>
+                <label><input type="checkbox" name="tank" value="m4">M4 Sherman</label>
+                <label><input type="checkbox" name="tank" value="t34">T-34</label>
+                <label><input type="checkbox" name="tank" value="tiger">Tiger I</label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Comments</legend>
+                <label>Do you have any additional comments or feedback about this site?
+                    <textarea name="comments" placeholder="I really enjoy the content on this site."></textarea>
+                </label>
+                <button type="submit">Submit Survey</button>
+            </form>
+    </main>
+
+    <footer>
+        <address>
+            <a href="mailto:Evan.Barclay@uvu.com">Evan.Barclay@uvu.com</a><br>
+            <a href="https://www.uvu.edu" target="_blank" rel="noopener">Utah Valley University</a><br>
+            <a href="tel:801-835-1335">+1 801-835-1335</a><br>
+            UVU, 800 West University Parkway, Orem, UT 84058
+        </address>
+        <p>&copy; 2026 &bull; Evan Barclay &bull; DWDD 1600 Project</p>
+    </footer>
+</body>
+</html>
