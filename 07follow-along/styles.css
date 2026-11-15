@@ -1,3 +1,7 @@
+/* prevent problems on diffrent browsers */
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -24,7 +28,7 @@ header p {
 /* navigation stuff here */
 nav {
     border-top: solid 1px #E0E6E6;
-    
+
 }
 nav ul {
     margin: 0;
@@ -80,15 +84,15 @@ main a {
 .angeloGallery {
     display: flex;
     flex-wrap: wrap;
-} 
+}
 .angeloGallery section {
     flex-basis: 50%;
     margin: 1rem 0;
-    
+
 }
 .angeloGallery span {
     display: block;
-    text-align: center; 
+    text-align: center;
     font-weight: 700;
     color: #895772;
 }
