@@ -276,6 +276,7 @@ footer a:hover {
 }
 .survey input[type="text"],
 .survey input[type="email"],
+.survey input[type="tel"],
 .survey textarea {
     width: 100%;
     padding: 0.5rem;
